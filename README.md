@@ -407,10 +407,16 @@ Text(
 
 下一章我们将深入学习 Kotlin 的核心特性，为掌握声明式编程打下坚实基础！
 
-# 附录：官方解读文章链接
+# 第三章：Kotlin新特性（与Java相比）
 
+
+
+
+# 附录：官方解读文章链接
+- [Android 架构的15年演进之路](https://mp.weixin.qq.com/s/AZWe9vK-zZvM7SJ6Uz7bOA) - 一篇详细分析 Android 架构15年发展历程的文章，适合进一步深入了解。
 - [Google 官方文档 - 架构指南](https://developer.android.com/topic/architecture)
 - [Google Android Developers - 架构组件](https://developer.android.com/topic/libraries/architecture)
 - [MVVM 官方文档](https://developer.android.com/topic/libraries/architecture/viewmodel)
 - [Data Binding 官方文档](https://developer.android.com/topic/libraries/data-binding)
 - [Jetpack 主页](https://developer.android.com/jetpack)
+- 
