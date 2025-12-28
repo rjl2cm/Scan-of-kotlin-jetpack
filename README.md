@@ -101,6 +101,8 @@
 
 **适用场景：** 主流中小到中大型 App
 
+![Flow 数据流模型和协程官方图示](https://mmbiz.qpic.cn/mmbiz_png/sOxAruHOzKpcwcRyVvoGE3mTP5SiafOK6DP5a5VKWaRia9fa3hN0ob2CtHrKhj6nyb88s8xhsUhM8p2RjibnDKNKg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)
+
 ---
 
 ### 第七阶段：MVI + Compose 时代（2020-2025）
