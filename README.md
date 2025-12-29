@@ -409,6 +409,8 @@ Text(
 
 # 第三章 Kotlin 相比 Java 的优势
 
+![Kotlin的基础能力](https://blog.jetbrains.com/wp-content/uploads/2025/12/Gemini_Generated_Image_q2ixdqq2ixdqq2ix.png)
+
 ## 3.1 空安全性（Null Safety）
 
 Kotlin 最重要的特性之一就是在类型系统层面提供了空安全保障，这从根本上解决了 Java 开发中最常见的 `NullPointerException` 问题。
@@ -1030,4 +1032,4 @@ Kotlin 不仅保留了 Java 的优势，还在语法简洁性、安全性、现�
 - [MVVM 官方文档](https://developer.android.com/topic/libraries/architecture/viewmodel)
 - [Data Binding 官方文档](https://developer.android.com/topic/libraries/data-binding)
 - [Jetpack 主页](https://developer.android.com/jetpack)
-- 
+- [面向 Java 开发者的 Kotlin 使用入门](https://blog.jetbrains.com/zh-hans/kotlin/2025/11/getting-started-with-kotlin-for-java-developers/).
