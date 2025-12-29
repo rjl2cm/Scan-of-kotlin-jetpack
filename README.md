@@ -1,4 +1,4 @@
-# Scan Of Kotlin&Jetpack
+# Scan Of Kotlin Jetpack
 
 # 第一章：Android架构演进史
 
