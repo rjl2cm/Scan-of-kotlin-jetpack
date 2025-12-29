@@ -1024,6 +1024,26 @@ Kotlin 不仅保留了 Java 的优势，还在语法简洁性、安全性、现�
 # 第四章：常见Jetpack库与其作用
 ![Jetpack库预览图(若干年前)](https://i-blog.csdnimg.cn/blog_migrate/fab666eef9ce19959fb61384b377ccac.png)
 
+## Android Jetpack 核心库
+
+| 库名称 | 作用 | 链接地址 |
+|--------|------|----------|
+| **ViewModel** | **目标**: 用于以注重生命周期的方式存储和管理界面相关的数据<br>**解决问题**:  解决配置更改（如屏幕旋转）时数据丢失的问题，将UI控制器（Activity/Fragment）的数据持有逻辑分离出来 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/architecture/viewmodel) |
+| **ViewBinding** | **目标**: 通过生成绑定类，更轻松地编写可与视图交互的代码<br>**解决问题**: 替代findViewById，避免空指针异常，提供编译时类型安全的视图访问 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/view-binding) |
+| **DataBinding** | **目标**: 以声明方式将可观察数据绑定到界面元素<br>**解决问题**: 减少样板代码，实现数据与UI的双向绑定，让UI自动响应数据变化 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/data-binding) |
+| **Hilt** | **目标**:  Jetpack推荐的依赖注入库，基于Dagger构建<br>**解决问题**: 简化依赖注入配置，减少样板代码，提供标准化的Android组件注入方式 | [官方文档（中文）](https://developer.android.google.cn/training/dependency-injection/hilt-android) |
+| **Koin** | **目标**: 轻量级的Kotlin依赖注入框架<br>**解决问题**: 提供更简单、更Kotlin化的依赖注入方案，学习曲线平缓 | [官方文档（英文）](https://insert-koin.io/) |
+| **Lifecycle** | **目标**: 管理Activity和Fragment的生命周期<br>**解决问题**: 避免内存泄漏和崩溃，让组件能够自动响应生命周期变化 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/architecture/lifecycle) |
+| **Paging** | **目标**: 分页加载库，逐步从数据源加载信息<br>**解决问题**: 高效加载大数据集，优化内存使用和网络请求 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/architecture/paging) |
+| **Room** | **目标**: SQLite数据库的抽象层<br>**解决问题**:  提供编译时SQL验证，减少样板代码，更流畅地使用SQLite | [官方文档（中文）](https://developer.android.google.cn/training/data-storage/room) |
+| **WorkManager** | **目标**: 管理可延迟的后台工作，保证任务执行<br>**解决问题**: 统一处理后台任务，即使应用退出或设备重启也能保证任务执行 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/architecture/workmanager) |
+| **Navigation** | **目标**: 实现应用内导航<br>**解决问题**:  简化Fragment间导航，提供可视化导航图，统一处理深层链接和参数传递 | [官方文档（中文）](https://developer.android.google.cn/guide/navigation) |
+| **ViewPager2** | **目标**:  ViewPager的改进版本<br>**解决问题**: 基于RecyclerView实现，支持垂直滚动、RTL布局，性能更优 | [官方文档（中文）](https://developer.android.google.cn/training/animation/vp2-migration) |
+| **DataStore** | **目标**: 数据存储解决方案，SharedPreferences的替代品<br>**解决问题**: 提供基于协程和Flow的异步API，类型安全，避免运行时异常 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/architecture/datastore) |
+| **LiveData** | **目标**:  可观察的数据持有类，具有生命周期感知能力<br>**解决问题**: 自动更新UI，避免内存泄漏和崩溃，确保UI数据同步 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/architecture/livedata) |
+| **Compose** | **目标**: 现代化的声明式UI工具包<br>**解决问题**: 简化UI开发，减少代码量，提供更直观的UI构建方式 | [官方文档（中文）](https://developer.android.google.cn/jetpack/compose) |
+| **CameraX** | **目标**:  简化相机开发的Jetpack库<br>**解决问题**: 统一不同设备的相机API差异，简化相机功能开发 | [官方文档（中文）](https://developer.android.google.cn/training/camerax) |
+| **Startup** | **目标**: 简化启动时组件初始化<br>**解决问题**: 优化应用启动性能，提供统一的初始化入口 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/app-startup) |
 
 # 附录：官方解读文章链接
 - [Android 架构的15年演进之路](https://mp.weixin.qq.com/s/AZWe9vK-zZvM7SJ6Uz7bOA) - 一篇详细分析 Android 架构15年发展历程的文章，适合进一步深入了解。
