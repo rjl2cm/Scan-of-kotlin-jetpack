@@ -444,10 +444,10 @@ Kotlin 提供了多种优雅的空安全操作符：
 val length = name?.length // 如果 name 为 null，返回 null
 
 // Elvis 操作符 ? :
-val length = name?. length ?: 0 // 如果为 null，返回默认值 0
+val length = name?.length ?: 0 // 如果为 null，返回默认值 0
 
 // 非空断言 !!
-val length = name!!. length // 确定不为 null 时使用，否则抛出异常
+val length = name!!.length // 确定不为 null 时使用，否则抛出异常
 ```
 
 ```java
