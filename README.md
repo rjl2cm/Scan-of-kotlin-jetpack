@@ -1022,7 +1022,7 @@ Kotlin 不仅保留了 Java 的优势，还在语法简洁性、安全性、现�
 
 
 # 第四章：常见Jetpack库与其作用
-
+![Jetpack库预览图(若干年前)](https://i-blog.csdnimg.cn/blog_migrate/fab666eef9ce19959fb61384b377ccac.png)
 
 
 # 附录：官方解读文章链接
@@ -1033,3 +1033,4 @@ Kotlin 不仅保留了 Java 的优势，还在语法简洁性、安全性、现�
 - [Data Binding 官方文档](https://developer.android.com/topic/libraries/data-binding)
 - [Jetpack 主页](https://developer.android.com/jetpack)
 - [面向 Java 开发者的 Kotlin 使用入门](https://blog.jetbrains.com/zh-hans/kotlin/2025/11/getting-started-with-kotlin-for-java-developers/).
+- [Android jetpack最佳总结和实践(1)](https://blog.csdn.net/2401_85729780/article/details/139708442).
