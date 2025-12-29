@@ -1026,7 +1026,7 @@ Kotlin 不仅保留了 Java 的优势，还在语法简洁性、安全性、现�
 
 ## Android Jetpack 核心库
 
-| 库名称 | 作用 | 链接地址 |
+| 库名 | 作用 |  链接   |
 |--------|------|----------|
 | **ViewModel** | **目标**: 用于以注重生命周期的方式存储和管理界面相关的数据<br>**解决问题**:  解决配置更改（如屏幕旋转）时数据丢失的问题，将UI控制器（Activity/Fragment）的数据持有逻辑分离出来 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/architecture/viewmodel) |
 | **ViewBinding** | **目标**: 通过生成绑定类，更轻松地编写可与视图交互的代码<br>**解决问题**: 替代findViewById，避免空指针异常，提供编译时类型安全的视图访问 | [官方文档（中文）](https://developer.android.google.cn/topic/libraries/view-binding) |
